@@ -1,0 +1,322 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "cracudo",
+            "request": "launch",
+            "mainClass": "aula12.cracudo",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
+            "name": "Ex1",
+            "request": "launch",
+            "mainClass": "aula12.Ex1",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
+            "name": "EnergyUsageReportTester",
+            "request": "launch",
+            "mainClass": "aula11.EnergyUsageReportTester",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
+            "name": "GradebookTester",
+            "request": "launch",
+            "mainClass": "aula11.GradebookTester",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
+            "name": "Ex1",
+            "request": "launch",
+            "mainClass": "aula11.Ex1",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
+            "name": "Ex4",
+            "request": "launch",
+            "mainClass": "aula10.Ex4",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
+            "name": "Ex3",
+            "request": "launch",
+            "mainClass": "aula10.Ex3",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
+            "name": "Ex2",
+            "request": "launch",
+            "mainClass": "aula10.Ex2",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
+            "name": "Ex1",
+            "request": "launch",
+            "mainClass": "aula10.Ex1",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
+            "name": "PlaneTester",
+            "request": "launch",
+            "mainClass": "aula09.PlaneTester",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
+            "name": "CollectionTester",
+            "request": "launch",
+            "mainClass": "aula09.CollectionTester",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
+            "name": "ALDemo",
+            "request": "launch",
+            "mainClass": "aula09.ALDemo",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
+            "name": "Ex3",
+            "request": "launch",
+            "mainClass": "aula08.Ex3",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
+            "name": "Ex2",
+            "request": "launch",
+            "mainClass": "aula08.Ex2",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
+            "name": "Ex1_a",
+            "request": "launch",
+            "mainClass": "aula08.Ex1_a",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
+            "name": "Ex2b_DataND",
+            "request": "launch",
+            "mainClass": "aula07.Ex2b_DataND",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
+            "name": "Ex2_Datas",
+            "request": "launch",
+            "mainClass": "aula07.Ex2_Datas",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
+            "name": "TournamentManagerMain",
+            "request": "launch",
+            "mainClass": "teste_na_aula.TournamentManagerMain",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
+            "name": "ContactosMenu",
+            "request": "launch",
+            "mainClass": "aula06.ContactosMenu",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
+            "name": "Vetores",
+            "request": "launch",
+            "mainClass": "aula06.Vetores",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
+            "name": "Teste",
+            "request": "launch",
+            "mainClass": "aula06.Teste",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
+            "name": "Ex3_LeilaoImobil",
+            "request": "launch",
+            "mainClass": "aula05.Ex3_LeilaoImobil",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
+            "name": "Ex4_CarDemo",
+            "request": "launch",
+            "mainClass": "aula04.Ex4_CarDemo",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
+            "name": "Ex2_CashRegisterDemo",
+            "request": "launch",
+            "mainClass": "aula04.Ex2_CashRegisterDemo",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
+            "name": "Ex5_Calendario",
+            "request": "launch",
+            "mainClass": "aula03.Ex5_Calendario",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
+            "name": "Ex4_NotasAlunos",
+            "request": "launch",
+            "mainClass": "aula03.Ex4_NotasAlunos",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "KmToMiles",
+            "request": "launch",
+            "mainClass": "aula01.KmToMiles",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
+            "name": "MyFirstClass",
+            "request": "launch",
+            "mainClass": "aula01.MyFirstClass",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
+            "name": "PescadaDeRaboNaBoca",
+            "request": "launch",
+            "mainClass": "aula01.PescadaDeRaboNaBoca",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
+            "name": "ReadFileExample",
+            "request": "launch",
+            "mainClass": "aula01.ReadFileExample",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
+            "name": "StringExample",
+            "request": "launch",
+            "mainClass": "aula01.StringExample",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
+            "name": "CParaF",
+            "request": "launch",
+            "mainClass": "aula02.CParaF",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
+            "name": "ContMinMaxMed",
+            "request": "launch",
+            "mainClass": "aula02.ContMinMaxMed",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
+            "name": "ContagemDecrescente",
+            "request": "launch",
+            "mainClass": "aula02.ContagemDecrescente",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
+            "name": "DistanciaPontos",
+            "request": "launch",
+            "mainClass": "aula02.DistanciaPontos",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
+            "name": "EnergiaAqua",
+            "request": "launch",
+            "mainClass": "aula02.EnergiaAqua",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
+            "name": "HHMMSS",
+            "request": "launch",
+            "mainClass": "aula02.HHMMSS",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
+            "name": "Investimentos",
+            "request": "launch",
+            "mainClass": "aula02.Investimentos",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
+            "name": "PitagorasAngulo",
+            "request": "launch",
+            "mainClass": "aula02.PitagorasAngulo",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
+            "name": "VelocidadeMedia",
+            "request": "launch",
+            "mainClass": "aula02.VelocidadeMedia",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
+            "name": "kmParaMilhas",
+            "request": "launch",
+            "mainClass": "aula02.kmParaMilhas",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
+            "name": "Ex1_SomaPrimos",
+            "request": "launch",
+            "mainClass": "aula03.Ex1_SomaPrimos",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
+            "name": "Ex2_Juros",
+            "request": "launch",
+            "mainClass": "aula03.Ex2_Juros",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
+            "name": "Ex3_AltoBaixo",
+            "request": "launch",
+            "mainClass": "aula03.Ex3_AltoBaixo",
+            "projectName": "POO_c1632e1a"
+        }
+    ]
+}
