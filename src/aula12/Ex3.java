@@ -4,7 +4,6 @@ import java.util.Map;
 import java.util.TreeMap;
 import java.util.List;
 import utils.*;
-import java.util.ArrayList;
 import java.io.IOException;
 import java.io.FileWriter;
 import java.io.PrintWriter;
