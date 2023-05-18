@@ -65,7 +65,7 @@ public class Ex3 {
 
     private static void printMovies(List<Movie> movies) {
         System.out.println("----------Movies----------");
-        System.out.printf("%40s\t%10s\t%10s\t%10s\t%12s\n", "Name", "Score", "Rating", "Genre", "Running Time");
+        System.out.printf("%-40s\t%10s\t%10s\t%10s\t%12s\n", "Name", "Score", "Rating", "Genre", "Running Time");
         for (Movie movie : movies) {
             System.out.println(movie);
         }
@@ -75,7 +75,7 @@ public class Ex3 {
         try {
             FileWriter fileW = new FileWriter("myselection.txt");
             PrintWriter printW = new PrintWriter(fileW);
-            printW.write(String.format("%40s\t%10s\t%10s\t%10s\t%12s\n", "Name", "Score", "Rating", "Genre", "Running Time"));
+            printW.write(String.format("%-40s\t%10s\t%10s\t%10s\t%12s\n", "Name", "Score", "Rating", "Genre", "Running Time"));
             for (Movie movie : movies) {
                 printW.write(movie.toString());
                 printW.write("\n");
@@ -91,9 +91,9 @@ public class Ex3 {
 
     private static void printGeneroNumero(TreeMap<String, Integer> movies) {
         System.out.println("----------Movies----------");
-        System.out.printf("%10s\t%16s\n", "Genre", "Number of Movies");
+        System.out.printf("%-10s\t%16s\n", "Genre", "Number of Movies");
         for (Map.Entry<String, Integer> entry : movies.entrySet()) {
-            System.out.printf("%10s\t%16d\n", entry.getKey(), entry.getValue());
+            System.out.printf("%-10s\t%16d\n", entry.getKey(), entry.getValue());
             
         }
     }
