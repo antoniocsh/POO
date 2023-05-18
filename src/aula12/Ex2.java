@@ -8,20 +8,21 @@ import java.util.Map;
 import java.util.TreeMap;
 import java.io.FileWriter;
 import java.io.PrintWriter;
+import java.nio.charset.StandardCharsets;
 
 public class Ex2 {
     public static void main(String[] args) throws IOException {
         ArrayList<String> wordsMais2 = new ArrayList<>();
-        Map<Character, TreeMap<String, Integer>> iPalavra = new TreeMap<>();        
-        Scanner input = new Scanner(new FileReader("words.txt"));
-        input.useDelimiter("[\\s\\t\\n\\p{Punct}&&[^']]+");
+        Map<Character, TreeMap<String, Integer>> iPalavra = new TreeMap<>();
+        Scanner input = new Scanner(new FileReader("A_cidade_e_as_serras.txt", StandardCharsets.UTF_8));
+        input.useDelimiter("[\\s\\t\\n\\p{Punct}[0-9]&&[^']]+");
         while (input.hasNext()) {
             String word = input.next().toLowerCase();
-            if (word.length() > 2){
-            wordsMais2.add(word);
+            if (word.length() > 2) {
+                wordsMais2.add(word);
+            }
         }
-        }
-        
+
         for (int i = 0; i < wordsMais2.size(); i++) {
             char primeiraLetra = wordsMais2.get(i).charAt(0);
             String Palavra = wordsMais2.get(i);
@@ -42,32 +43,28 @@ public class Ex2 {
         }
 
         writeFile((TreeMap<Character, TreeMap<String, Integer>>) iPalavra);
-        
-
 
     }
 
-    public static void writeFile(TreeMap<Character, TreeMap<String, Integer>> AllWordsMap){
+    public static void writeFile(TreeMap<Character, TreeMap<String, Integer>> AllWordsMap) {
         try {
-        FileWriter fileW = new FileWriter("palavras.txt");
-        PrintWriter printW = new PrintWriter(fileW);
-        for (Character firstLetter : AllWordsMap.keySet()) {
-            printW.write(firstLetter + ": ");
-            TreeMap<String, Integer> wordsMap = AllWordsMap.get(firstLetter);
-            for (String word : wordsMap.keySet()) {
-                printW.write(word + ", " + wordsMap.get(word) + "; ");
-                
+            FileWriter fileW = new FileWriter("palavras.txt");
+            PrintWriter printW = new PrintWriter(fileW);
+            for (Character firstLetter : AllWordsMap.keySet()) {
+                printW.write(firstLetter + ": ");
+                TreeMap<String, Integer> wordsMap = AllWordsMap.get(firstLetter);
+                for (String word : wordsMap.keySet()) {
+                    printW.write(word + ", " + wordsMap.get(word) + "; ");
+
+                }
+                printW.write("\n");
             }
-            printW.write("\n");
+
+            printW.close();
+            fileW.close();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
 
-
-        printW.close();
-        fileW.close();
-    } catch (IOException e) {
-        e.printStackTrace();
     }
-
 }
-}
-
