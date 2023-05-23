@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "OrderTester",
+            "request": "launch",
+            "mainClass": "Teste_na_aula.OrderTester",
+            "projectName": "POO_c1632e1a"
+        },
+        {
+            "type": "java",
             "name": "Ex3",
             "request": "launch",
             "mainClass": "aula12.Ex3",
