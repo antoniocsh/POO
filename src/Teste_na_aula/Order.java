@@ -6,7 +6,7 @@ public class Order implements Comparable<Order> {
     private static int count = 1;
     private int id;
     private ArrayList<Item> items;
-    private double price;
+    // private double price;
     private String storeId;
     private String clientId;
     private LocalDate orderDateTime;
